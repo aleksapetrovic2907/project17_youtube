@@ -11,25 +11,64 @@ body {
     width: 100%;
     height: 10%;
     background-color: hsl(0deg 0% 13%);
+    padding: 12px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
+
 #nav-icon {
-    fill: white
     height: 44px;
     width: 44px;
 }
 
-#logo-icon {
-    width: 30px;
-}
 
 #bar {
-    background-color: hsl(0deg 0% 10%);
+    background-color: #131313;
     color: white;
+    font-size: medium;
     border: 1px solid #303030;
+    height: 30px;
+    width: 500px;
+    padding: 0px 8px;
 }
 
 #bar:focus {
     outline: none;
     border: 1px solid hsl(213deg 73% 42%);
+}
+
+#start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#searchbutton {
+    border: none;
+}
+
+#end {
+    padding-right: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    margin: 0px 12px;
 }
